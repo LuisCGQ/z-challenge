@@ -1,0 +1,13 @@
+.Construccion {
+  text-align: center;
+  margin: 40px;
+}
+
+.Construccion h3 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.Construccion img {
+  max-width: 300px;
+}

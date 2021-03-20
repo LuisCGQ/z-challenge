@@ -3,6 +3,7 @@
   max-width: 100%;
   text-align: center;
   height: auto;
+  padding-bottom: 60px;
 }
 
 .Clientes-flex {
@@ -12,13 +13,12 @@
 @media (min-width: 768px) {
   .Clientes {
     text-align: left;
-
-    max-width: 68%;
+    max-width: 65%;
   }
 
   .Clientes-flex {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     overflow: auto;
     max-height: 60vh;
     flex-wrap: wrap;

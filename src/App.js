@@ -1,20 +1,21 @@
 import React from "react";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Clientes from "./components/Clientes";
-import Nosotros from "./components/Nosotros";
+import Main from "./components/Main";
+import Construccion from "./components/Construccion";
 import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
       <Navbar />
-      <div className="App-flex container">
-        <Nosotros />
-        <Clientes />
-      </div>
+      <Switch>
+        <Route exact path="/" render={() => <Main />} />
+        <Route exact path="/construccion" render={() => <Construccion />} />
+      </Switch>
       <Footer />
-    </div>
+    </BrowserRouter>
   );
 }
 

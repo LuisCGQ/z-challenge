@@ -10,9 +10,9 @@ const Navbar = () => {
             <div className="Navbar-logo">{""}</div>
             Skimo
           </a>
-          <a href="/Menu">Menú</a>
+          <a href="/Construccion">Menú</a>
         </div>
-        <a href="/Contacto">Contacto</a>
+        <a href="/Construccion">Contacto</a>
       </div>
     </div>
   );
