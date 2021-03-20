@@ -1,0 +1,42 @@
+.Cliente {
+  margin: 10px;
+  padding: 10px 20px;
+  width: 300px;
+  box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.1);
+
+  border-radius: 20px;
+  box-shadow: 1px;
+}
+
+.Cliente img {
+  max-width: 60px;
+  border-radius: 30px;
+}
+
+.Cliente-flex {
+  display: flex;
+  align-items: center;
+}
+
+.id {
+  text-align: end;
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: rgb(163, 163, 163);
+}
+
+.nombre {
+  padding-left: 20px;
+  color: --azul;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.email {
+  text-align: end;
+  margin: 0;
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: rgb(13, 107, 218);
+}

@@ -1,0 +1,45 @@
+.Clientes {
+  margin: 0;
+  max-width: 100%;
+  text-align: center;
+  height: auto;
+}
+
+.Clientes-flex {
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .Clientes {
+    text-align: left;
+
+    max-width: 65%;
+  }
+
+  .Clientes-flex {
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+    max-height: 60vh;
+    flex-wrap: wrap;
+
+    margin: 0;
+  }
+
+  .Clientes-flex::-webkit-scrollbar {
+    -webkit-appearance: none;
+  }
+
+  .Clientes-flex::-webkit-scrollbar:vertical {
+    width: 6px;
+  }
+
+  .Clientes-flex::-webkit-scrollbar:horizontal {
+    height: 1px;
+  }
+
+  .Clientes-flex::-webkit-scrollbar-thumb {
+    background-color: rgba(163, 163, 163);
+    border-radius: 20px;
+  }
+}

@@ -1,0 +1,15 @@
+.Nosotros {
+  width: 100%;
+  padding: 0 10px;
+}
+
+.Nosotros p {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .Nosotros {
+    max-width: 30%;
+  }
+}

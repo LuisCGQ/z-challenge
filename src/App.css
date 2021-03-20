@@ -1,0 +1,11 @@
+.App-flex {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .App-flex {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+}
