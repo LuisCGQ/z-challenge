@@ -12,7 +12,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path="/" render={() => <Main />} />
-        <Route exact path="/construccion" render={() => <Construccion />} />
+        <Route exact path="/Construccion" render={() => <Construccion />} />
       </Switch>
       <Footer />
     </BrowserRouter>
