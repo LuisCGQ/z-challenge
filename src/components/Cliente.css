@@ -3,9 +3,14 @@
   padding: 10px 20px;
   width: 300px;
   box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.1);
-
   border-radius: 20px;
   box-shadow: 1px;
+  transition: ease-in-out 0.2s;
+}
+
+.Cliente:hover {
+  transform: scale(1.05);
+  position: relative;
 }
 
 .Cliente img {

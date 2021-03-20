@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Clientes from "./components/Clientes";
 import Nosotros from "./components/Nosotros";
+import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Nosotros />
         <Clientes />
       </div>
+      <Footer />
     </div>
   );
 }
